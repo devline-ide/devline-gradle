@@ -9,7 +9,7 @@ dependencies {
 tasks.processResources { from("src/extension/extension.json") { rename { "gradle-extension.json" } } }
 val panelBuild = tasks.register<Exec>("panelBuild") {
     workingDir(rootProject.projectDir)
-    commandLine("node", "node_modules/vite/bin/vite.js", "build", "--config", "devline-gradle/web/vite.config.ts", "--outDir", layout.buildDirectory.dir("panel").get().asFile.absolutePath)
+    commandLine("node", "node_modules/vite/bin/vite.js", "build", "--config", project.file("web/vite.config.ts").absolutePath, "--outDir", layout.buildDirectory.dir("panel").get().asFile.absolutePath)
     inputs.dir("web"); inputs.dir(rootProject.file("devline-ui-web/src"))
     outputs.dir(layout.buildDirectory.dir("panel"))
 }
