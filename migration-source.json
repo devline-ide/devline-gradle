@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "extensionId": "devline.gradle",
+  "sourceRepository": "https://github.com/devline-ide/ozl.devline.ide.git",
+  "sourceCommit": "bd066f6475bc5f3f355facbaaff021aa5e227752",
+  "sourceDirectory": "devline-gradle",
+  "workingTreeIncluded": true,
+  "files": {
+    "README.md": "d8ad675f2c82058eea3fb72e943cecbfefb0394321fc29a6fb05be2309b13e1b",
+    "build.gradle.kts": "5ae9bae826b2ca5c4aed19a75f3aff6009c83a57e5d22d36e3ef111862a8fb6f",
+    "src/extension/extension.json": "b1213fe27bf74387a4b9d29f9f937d0828005e0e05751c89ec0cd29f3acfe534",
+    "src/main/kotlin/devline/gradle/GradleExtension.kt": "5a75c307b51588129242fb15a7fe117f8ab06dd299e12877a3ff92cbed811c52",
+    "src/main/kotlin/devline/gradle/GradleModels.kt": "791c5d75670f09f4fc99a7010878fd3eef15c62466b9ee18a3ebcbbf2179e845",
+    "src/main/kotlin/devline/gradle/GradleRuntime.kt": "7b025217ce7a10e0a8cf95b934151a9f0b2f77d06ea8674e3c23de3b94153ac0",
+    "src/main/resources/META-INF/gradle-LICENSE.txt": "776dbcf4698c5efcbd852bf7c68c6bab3c7449ab3d4f9009f3efc2edb5d077b3",
+    "src/main/resources/META-INF/gradle-NOTICE.txt": "c2de5fd9adc7ccc4e1382a0e1f38ec6e14f8ca6e28d3c20289fe80353b019aa1",
+    "src/main/resources/devline/gradle/branding/icon.png": "411643bae813013e9e8a3373ce3d5e1b5b560ca64916fd44d8369da4b6c102c8",
+    "src/main/resources/devline/gradle/branding/icon.svg": "8736612a8dd3616afd4a33760e328cf45399cc12a7e6db87c2ffac910c685267",
+    "src/test/kotlin/devline/gradle/GradleExtensionCheck.kt": "39d8a4cafabfb19723fd3ecc454ae64a01e0d9646f249ac31571f1cf5f21eb07",
+    "web/GradlePanel.vue": "5690e7802bbbba3d1d57f5e3980a1d88c439cda00eca927c9f8ce97e10601834",
+    "web/en.json": "f0b669ab8e8784231a792fa44fcffdf620a842116cbe12b5081044b094331415",
+    "web/gradle.scss": "0e9294efdfd7e6fc861d6546078f0f333a71a289de835500feacdef86de4ab5a",
+    "web/main.ts": "cd59a8430c0b361834ca97922093b07d96cf4a9f89c377671b25049cdc94e9b5",
+    "web/pack.mjs": "13ebbdc7c8ef178a018435bfa656391c81f46d4762bf7e64ed7756bb58cb9822",
+    "web/ru.json": "b09b2d3e2642f0db13e5aacaa8d0582828de9a161f6bf5286f7a71fa4a5ed553",
+    "web/sdk.ts": "7a3479683a99e1b775c7b8ff55bbd83c6177f4e203aaf4288749d4a288dbad8e",
+    "web/tsconfig.json": "8b132234b5330c3b5dfc51d2c296bdf7f950a2f4ae800130e751050ba8130f49",
+    "web/useGradle.ts": "fa351c7c0efcbf3682283fa5ee8f684351ea1e96d8bec1ec9792d686de1a808f",
+    "web/vite.config.ts": "dc110eb743d467b7744355d42249ae860828c087d4c69b79fcc62359e81e748a"
+  }
+}

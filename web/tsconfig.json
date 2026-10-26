@@ -1,0 +1,6 @@
+{
+  "extends": "../../devline-web-shell/tsconfig.json",
+  "compilerOptions": { "baseUrl": ".", "paths": { "@devline/ui-web": ["../../devline-ui-web/src/index.ts"] } },
+  "include": ["**/*.ts", "**/*.vue"],
+  "exclude": ["vite.config.ts"]
+}
