@@ -1,6 +1,5 @@
 {
   "extends": "@devline/extension-devkit/tsconfig.json",
-  "compilerOptions": { "baseUrl": ".", "paths": { "@devline/ui-web": ["../../devline-ui-web/src/index.ts"] } },
   "include": ["**/*.ts", "**/*.vue"],
   "exclude": ["vite.config.ts"]
 }

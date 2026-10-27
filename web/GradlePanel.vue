@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { UIButton, UIIcon, UIInput, UIInfoTip } from '@devline/ui-web'
+import { UIButton, UIIcon, UIInput, UIInfoTip } from '@devline/ui-web/controls'
 import { useGradle } from './useGradle'
 const { t, data, error, pending, project, query, rootPath, linking, output, active, groups, refresh, action } = useGradle()
 </script>
