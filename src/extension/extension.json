@@ -13,7 +13,7 @@
   "extension": {
     "schemaVersion": 1,
     "id": "devline.gradle",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "name": {
       "en": "Gradle",
       "ru": "Gradle"

@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "itemId": "devline.gradle",
+  "sourceRepository": "devline-ide/devline-gradle",
+  "sourceRepositoryId": 1434835363,
+  "distributionRepository": "devline-ide/devline-gradle-releases",
+  "distributionRepositoryId": 1437893691,
+  "ownerId": 328436105,
+  "platforms": [
+    "universal"
+  ],
+  "sourceVisibility": "public"
+}

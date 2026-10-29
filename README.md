@@ -1,3 +1,8 @@
+## Community development
+
+Public extension sources: Apache-2.0. Build and contribute without private IDE access:
+see [CONTRIBUTING.md](CONTRIBUTING.md) and the pinned [SDK](sdk.lock.json).
+
 # DevLine Gradle
 
 Standalone IDE extension, enabled by default and distributed through the desktop extension catalog. It contributes one left sidebar panel. It is independent of Tellfair and is never an application/project dependency.
@@ -8,7 +13,7 @@ Opening the panel only detects build/wrapper files. Sync and Run configure/execu
 
 Linked roots are stored atomically in the IDE profile (devline.gradle/settings.json). Disable, project close and owner changes cancel owned operations. Hidden panels stop polling; an explicitly started build can continue. No project build files are rewritten. Composite builds and dependency browsing are not provided by this first version.
 
-Build: ./gradlew :devline-gradle:extensionArchive
+Community build: `python ci/public_build.py`. Product-integrated Gradle tasks below require the owning Studio checkout.
 
 Check: ./gradlew :devline-gradle:gradleCheck. Supply -PgradleFixtureInstallation=/absolute/gradle/path for the real offline Tooling fixture (multiproject sync, task output/file creation, cancellation). Without that property the pure state/output/ownership checks run.
 
